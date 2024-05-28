@@ -1,0 +1,27 @@
+[build-system]
+requires = ["flit_core>=3.4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "pytwitchauthlistener"
+version = "0.0.1"
+authors = [
+  { name="Andy Hawkins", email="andy@gently.org.uk" },
+]
+description = "Python Twitch Auth Listener"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+  "aiohttp",
+  "twitchAPI",
+]
+
+[project.urls]
+Homepage = "https://github.com/adhawkins/pytwitchauthlistener"
+Issues = "https://github.com/adhawkins/pytwitchauthlistener/issues"
